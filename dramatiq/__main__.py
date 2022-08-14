@@ -19,5 +19,6 @@ import sys
 
 from dramatiq.cli import main
 
+# worker进程的入口。此文件名为__main__.py，所以可以直接执行
 if __name__ == "__main__":
     sys.exit(main())

@@ -460,6 +460,7 @@ def fork_process(args, fork_id, fork_path, logging_pipe):
     return sys.exit(func())
 
 
+# worker 进程的入口
 def main(args=None):  # noqa
     args = args or make_argument_parser().parse_args()
     for path in args.path:
