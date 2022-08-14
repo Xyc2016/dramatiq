@@ -3,6 +3,8 @@ import os
 import random
 import sys
 
+import sys
+sys.path.append('.')
 import dramatiq
 
 if os.getenv("REDIS") == "1":
